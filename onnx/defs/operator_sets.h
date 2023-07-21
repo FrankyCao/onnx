@@ -1076,6 +1076,7 @@ class ONNX_OPERATOR_SET_SCHEMA_CLASS_NAME(Onnx, 19, Reshape);
 class ONNX_OPERATOR_SET_SCHEMA_CLASS_NAME(Onnx, 19, Scan);
 class ONNX_OPERATOR_SET_SCHEMA_CLASS_NAME(Onnx, 19, Shape);
 class ONNX_OPERATOR_SET_SCHEMA_CLASS_NAME(Onnx, 19, Size);
+class ONNX_OPERATOR_SET_SCHEMA_CLASS_NAME(Onnx, 19, FAUpSamplingLinear);
 
 // Iterate over schema from ai.onnx version 19
 class OpSet_Onnx_ver19 {
@@ -1098,6 +1099,7 @@ class OpSet_Onnx_ver19 {
     fn(GetOpSchema<ONNX_OPERATOR_SET_SCHEMA_CLASS_NAME(Onnx, 19, Scan)>());
     fn(GetOpSchema<ONNX_OPERATOR_SET_SCHEMA_CLASS_NAME(Onnx, 19, Shape)>());
     fn(GetOpSchema<ONNX_OPERATOR_SET_SCHEMA_CLASS_NAME(Onnx, 19, Size)>());
+    fn(GetOpSchema<ONNX_OPERATOR_SET_SCHEMA_CLASS_NAME(Onnx, 19, FAUpSamplingLinear)>());
   }
 };
 
